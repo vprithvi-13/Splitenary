@@ -69,9 +69,11 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
 
+    //navigation component
+    implementation ("androidx.navigation:navigation-compose:2.9.0")
+
     // Hilt for Dependency Injection
     implementation ("androidx.hilt:hilt-navigation-compose:1.2.0")
-    implementation ("com.google.dagger:hilt-lifecycle-viewmodel:1.0.0-alpha03")
     implementation ("com.google.dagger:hilt-android:2.56.2")
     ksp("com.google.dagger:hilt-android-compiler:2.56.2")
 }
