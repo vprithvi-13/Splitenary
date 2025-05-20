@@ -15,7 +15,7 @@ fun Navigation(){
         composable(route = Screen.SplashScreen.route){
             SplashScreen(navController = navController)
         }
-        composable(route = Screen.LoginScreen.route){
+        composable(route = Screen.LoginView.route){
             LoginView(navController = navController)
         }
     }
